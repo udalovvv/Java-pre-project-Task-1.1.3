@@ -5,16 +5,6 @@ import javax.persistence.*;
 @Entity
 @Table(name = "User")
 public class User {
-//    @Id
-//    private Long id;
-
-//    @Id
-//    @GeneratedValue(strategy = GenerationType.IDENTITY)
-//    @Column(name = "id", nullable = false, insertable = true, updatable = true)
-//        private Long id;
-//    public Integer getId() {
-//        return id;
-//    }
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
